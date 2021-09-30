@@ -1,0 +1,67 @@
+{
+	"info": {
+		"_postman_id": "4210065b-7b54-4c99-9bab-29769b1f5f64",
+		"name": "Invocador",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Pruebas",
+			"item": [
+				{
+					"name": "Pruebas",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://dev.auth.bccr.fi.cr/invocador/Pruebas/?suscriptor=Pruebas&api-version=1",
+							"protocol": "https",
+							"host": [
+								"dev",
+								"auth",
+								"bccr",
+								"fi",
+								"cr"
+							],
+							"path": [
+								"invocador",
+								"Pruebas",
+								""
+							],
+							"query": [
+								{
+									"key": "suscriptor",
+									"value": "Pruebas"
+								},
+								{
+									"key": "api-version",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Healthcheck",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{dev.auth}}/invocador/Healthcheck",
+					"protocol": "https",
+					"host": [
+						"{{dev.auth}}"
+					],
+					"path": [
+						"invocador",
+						"Healthcheck"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
