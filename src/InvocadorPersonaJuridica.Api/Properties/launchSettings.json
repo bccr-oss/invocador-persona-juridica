@@ -1,0 +1,20 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iis": {
+        "applicationUrl": "https://localhost/invocador/",
+        "sslPort": 0
+    }
+  },
+  "profiles": {
+    "IIS-Desarrollo": {
+      "commandName": "IIS",
+      "launchBrowser": true,
+      "launchUrl": "Health",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
